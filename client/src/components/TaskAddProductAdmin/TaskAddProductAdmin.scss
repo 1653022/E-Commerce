@@ -1,0 +1,104 @@
+.formAddProduct{
+    width: 800px;
+    .formAddProduct--input{
+        padding-bottom: 25px;
+        .formAddProduct--title{
+            display: flex;
+            justify-content: flex-end;
+            font-size: 12px;
+            color: #202124;
+            font-weight: bold;
+        }
+        .input--data{
+            input{
+                width: 638px;
+                height: 35px;
+                padding: 3px 8px;
+                font-size: 14px;
+            }
+        }
+
+        .formAddProduct--photo{
+            .row{
+                .formAddProduct--img{
+                    position: relative;
+                    img{
+                        width: 135px;
+                        height: 194px;
+                    }
+                    .btnCloseImg{
+                        background: transparent;
+                        border: none;
+                        position: absolute;
+                        margin-left: 100px;
+                        color: #3d3d3f;
+                    }
+                    .displayImg{
+                        display: none;
+                    }
+                    .imgNone{
+                        background-color: #fafafa;
+                        height: 193.73px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .imgNone--content{
+
+                            label{
+                                color: #acacac;
+                                font-size: 20px;
+                                cursor: pointer;
+                                padding-left: 22px;
+                            }
+                            
+                            // button{
+                            //     border: none;
+                            //     background: none;
+                            //     margin-left: 17px;
+                            //     margin-top: 10px;
+                            //     color: #acacac;
+                            //     font-size: 20px;
+                            // }
+                            p{
+                                font-size: 12px;
+                                font-weight: bold;
+                                color: #acacac;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .label--photo{
+            font-size: 13px;
+            color: #acacac;
+            font-weight: bold;
+            padding-top: 20px;
+            padding-left: 17px;
+        }
+
+        
+    }
+    .formAddProduct--btnControl{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 80px;
+        
+        .btnCancel{
+            padding: 10px 45px;
+            margin-left: 15px;
+            background-color: #ffa15f;
+            color: white;
+            border: none;
+            font-size: 14px;
+            font-weight: bold;
+            &:hover{
+                transition: 1s all;
+                background-color: white;
+                color: #ffa15f;
+                
+            }
+        }
+    }
+}
+

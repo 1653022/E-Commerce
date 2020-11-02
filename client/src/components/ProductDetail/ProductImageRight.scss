@@ -1,0 +1,19 @@
+.image-right{
+    padding: 0px;
+    .image-right__title1{
+        font-size: 14px;
+        padding: 0px;
+        margin: 0px;
+        font-weight: bold;
+    }
+    .image-right__title2{
+        font-size: 14px;
+        padding: 0px;
+        margin-bottom: 5px;
+    }
+    img{
+        max-width: 80px;
+        max-height: 110px;
+        margin-bottom: 16px;
+    }
+}

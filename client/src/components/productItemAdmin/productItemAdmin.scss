@@ -1,0 +1,49 @@
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    color: black; 
+    outline: none;
+    background-color: transparent; 
+    border-color: transparent;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    /* box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5); */
+    outline: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none    
+}
+
+.btn-primary{
+    color: black; 
+    background-color: transparent; 
+    border-color: transparent;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    &:hover{
+        color: black; 
+        background-color: transparent; 
+        border-color: transparent;
+    }
+    &:focus{
+        color: black; 
+        background-color: transparent; 
+        border-color: transparent;
+        outline: none;
+        box-shadow: none;
+    }
+   
+}
+
+.productItemAdmin{
+    td{
+        .imgItem{
+            .imgItem--img{
+                img{
+                    width: 40px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+}

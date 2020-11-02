@@ -1,0 +1,57 @@
+.cartitem{
+    font-size: 14px;
+    th{
+        img{
+            width: 78px;
+            height: 115px;
+        }
+    }
+    .cartitem--color{
+        button{
+            width: 30px;
+            height: 30px;
+            border-radius: 30px;
+            border: none;
+        }
+    }
+    .cartitem--quantity{
+        .quantity--content{
+            border: solid 2px #808080;
+            display: flex;
+            width: 100px;
+            margin-left: 20px;
+            
+            .control1{
+                align-items: flex-start;
+                font-weight: bold;
+                font-size: 18px;
+                &:hover{
+                    transition: 0.5s all;
+                    color: #ffa15f;
+                    font-weight: bold;
+                }
+            }
+            .control2{
+                align-items: flex-end;
+                font-weight: bold;
+                font-size: 18px;
+                &:hover{
+                    transition: 0.5s all;
+                    color: #ffa15f;
+                    font-weight: bold;
+                }
+            }
+            button {
+                width: 27px;
+                height: 45px;
+                background: transparent;
+                border: none;
+                outline: none;
+            }
+            .number{
+                padding: 0px 15px;
+                line-height: 40px;
+            }
+        }
+    }
+}

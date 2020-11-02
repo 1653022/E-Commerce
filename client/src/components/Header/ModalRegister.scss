@@ -1,0 +1,137 @@
+// .modal-register{
+//     .modal-dialog{
+//         .modal-content{
+//             .modal-body{
+//                 color: black;
+//                 position: relative;
+//                 padding: 10px 60px;
+//                 .close{
+//                     position: absolute;
+//                     right: 3%;
+//                 }
+//                 .modal-title{
+//                     padding: 20px 0px;
+//                     text-align: center;
+//                     font-weight: bold;
+//                 }
+//                 .form-group{
+//                     label{
+//                         font-size: 12px;
+//                         font-weight: bold;
+//                     }
+//                     input{
+//                         font-size: 14px;
+//                         padding: 20px;
+//                         color: #4d4d4d;
+//                         background-color: #f6f6f6;
+//                         border-radius: 0px;
+//                     }
+//                 }
+//                 .modal-body__term{
+//                     padding: 20px 30px;
+//                     text-align: center;
+//                     font-size: 14px;
+//                     a{
+//                         color: #ff7413;
+//                         text-decoration: underline;
+//                         font-weight: bold;
+//                     }
+//                 }
+//                 .btn__register{
+//                     background-color: #d4d3d3;                    ;
+//                     color: white;
+//                     font-weight: bold;
+//                     width: 100%;
+//                     padding: 8px 0px;
+//                     margin-bottom: 50px;
+//                     border-radius: 0;
+//                     &:hover{
+//                         transition: 1s all;
+//                         background: #ffa15f;
+//                     }
+//                 }         
+//             }
+//             .modal-footer{
+//                 text-align: center;
+//                 display: block;
+//                 font-size: 14px;
+//                 p{
+//                     font-weight: bold;
+//                     a{
+//                         color: #ff7413;
+//                     }
+//                 }
+//             }
+//         }
+        
+//     }
+        
+// }
+
+
+.modal--register{
+    .modal--content{
+        .modal--body{
+            color: black;
+            position: relative;
+            padding: 10px 60px;
+            .close{
+                position: absolute;
+                right: 3%;
+            }
+            .modal-title{
+                padding: 20px 0px;
+                text-align: center;
+                font-weight: bold;
+            }
+            .form-group{
+                label{
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+                input{
+                    font-size: 14px;
+                    padding: 20px;
+                    color: #4d4d4d;
+                    background-color: #f6f6f6;
+                    border-radius: 0px;
+                }
+            }
+            .modal-body__term{
+                padding: 20px 30px;
+                text-align: center;
+                font-size: 14px;
+                a{
+                    color: #ff7413;
+                    text-decoration: underline;
+                    font-weight: bold;
+                }
+            }
+            .btn__register{
+                background-color: #d4d3d3;                    ;
+                color: white;
+                font-weight: bold;
+                width: 100%;
+                padding: 8px 0px;
+                margin-bottom: 50px;
+                border-radius: 0;
+                &:hover{
+                    transition: 1s all;
+                    background: #ffa15f;
+                }
+            }         
+        }
+        .modal--footer{
+            text-align: center;
+            display: block;
+            font-size: 14px;
+            p{
+                font-weight: bold;
+                a{
+                    color: #ff7413;
+                }
+            }
+        }
+    }
+        
+}

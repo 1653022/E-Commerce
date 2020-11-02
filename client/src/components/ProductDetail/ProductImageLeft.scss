@@ -1,0 +1,21 @@
+.image-left{
+    display: flex;
+    .image__detail{
+        display: flex;
+        flex-direction: column;
+        img{
+            max-width: 80px;
+            max-height: 116px;
+            margin-bottom: 25px;
+        }
+    }
+
+    .image__big{
+        img{
+            width: 420px;
+            height: 537px;
+            padding:  0 16px;
+        }
+        
+    }
+}

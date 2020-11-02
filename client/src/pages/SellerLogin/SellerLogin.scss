@@ -1,0 +1,65 @@
+.wrap{
+    background-image: url(./seller.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    max-width: 1440px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    .row{
+        margin: 0px;
+    }
+    .wrap-logo{
+        padding: 32px 0px 0px 44px;
+    }
+    
+    .wrap-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 110px;
+        .content{
+            padding: 45px 25px;
+            width: 380px;
+            background: rgba(61, 61, 63, 0.8);
+            .content--title{
+                text-align: center;
+                font-weight: bold;
+                font-size: 28px;
+                color: #ffa15f;
+            }
+            .form-group{
+                label{
+                    font-size: 12px;
+                    color: #acacac;
+                    font-weight: bold;
+                }
+            }
+            .content--btnlogin{
+                background-color: #ffa15f;                    ;
+                color: white;
+                font-weight: bold;
+                width: 100%;
+                padding: 8px 0px;
+                margin-top: 30px;
+                border: none;
+                
+                &:hover{
+                    transition: 1s all;
+                    background: white;
+                    color: black;
+                }
+            }
+            .content--forgot{
+                padding-top: 40px;
+                padding-left: 115px;
+                a{
+                    font-size: 12px;
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+    
+}

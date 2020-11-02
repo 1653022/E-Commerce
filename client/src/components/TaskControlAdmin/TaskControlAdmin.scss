@@ -1,0 +1,76 @@
+.taskControl{
+    padding-top: 10px;
+    .taskControl--left{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .taskControl--right{
+        line-height: 48px;
+        display: flex;
+        justify-content: flex-end;
+        .taskControl--icon{
+           padding-right: 20px;
+            img{
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+            }
+            
+        }
+        a{
+            padding-left: 20px;
+            color: #9b9b9b;
+        }
+        .btnDropdown{
+
+        }
+        .show{
+            .btn-primary{
+                .dropdown-toggle {
+                    color: #fff;
+                    background-color: red;
+                    border-color: red;
+                }
+            }
+        
+        }
+    }
+
+    .btn-primary{
+        color: black; 
+        background-color: transparent; 
+        border-color: transparent;
+        font-size: 14px;
+        font-weight: bold;
+        outline: none;
+        &:hover{
+            color: black; 
+            background-color: transparent; 
+            border-color: transparent;
+        }
+        &:focus{
+            color: black; 
+            background-color: transparent; 
+            border-color: transparent;
+            outline: none;
+            box-shadow: none;
+        }
+       
+    }
+
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    color: black; 
+    outline: none;
+    background-color: transparent; 
+    border-color: transparent;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    /* box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5); */
+    outline: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none    
+}
